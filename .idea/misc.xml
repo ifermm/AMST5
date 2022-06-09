@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/aflun/Desktop/ESPOL/2022/1S/Desarrollo de Aplicaciones/ASMT5/AMST5/app/src/main/res/layout/activity_formulario_registro.xml" value="0.24547101449275363" />
-        <entry key="..\:/Users/aflun/Desktop/ESPOL/2022/1S/Desarrollo de Aplicaciones/ASMT5/AMST5/app/src/main/res/layout/activity_main.xml" value="0.1598173515981735" />
+
+        <entry key="..\:/Users/Principal/AndroidStudioProjects/AMS5/AMST5/app/src/main/res/layout/activity_formulario_registro.xml" value="0.33" />
+        <entry key="..\:/Users/Principal/AndroidStudioProjects/AMS5/AMST5/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+
       </map>
     </option>
   </component>

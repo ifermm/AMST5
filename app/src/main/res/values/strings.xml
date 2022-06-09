@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">AMST5</string>
+
+    <string name="registrarse">Registrarse</string>
     <string name="usuario">Usuario</string>
     <string name="clave">Clave</string>
     <string name="login">Login</string>
-    <string name="registrarse">Registrarse</string>
+    <string name="nombres">Nombres:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="cedula">Cedula:</string>
+    <string name="edad">Edad:</string>
+    <string name="altura">Altura:</string>
+    <string name="peso">Peso:</string>
+    <string name="email">Email:</string>
+    <string name="usu">Usuario:</string>
+    <string name="cla">Clave:</string>
+    <string name="grabar">Grabar</string>
+
 </resources>
