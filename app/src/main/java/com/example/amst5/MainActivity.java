@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -27,8 +30,42 @@ public class MainActivity extends AppCompatActivity {
         btnRegistro = (Button) findViewById(R.id.btnRegistro);
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menudeopciones, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.VideoView:
+
+                return true;
+
+            case R.id.CalendarV:
+                Intent i = new Intent(this, Calendario.class);
+                startActivity(i);
+                return true;
+
+            case R.id.Maps:
+
+                return true;
+
+            case R.id.Grafico:
+                Intent i2 = new Intent(this, GraficoActivity.class);
+                startActivity(i2);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
     public void registrarse(View view) {
-        Intent intent = new Intent(this, formulario_registro.class); startActivity(intent);
+        Intent intent = new Intent(this, formulario_registro.class);
+        startActivity(intent);
 
 
     }

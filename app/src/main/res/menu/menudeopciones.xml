@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/VideoView"
+        android:title="Video View"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/CalendarV"
+        android:title="Calendar View"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/Maps"
+        android:title="Google Maps"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/Grafico"
+        android:title="Gráfico Lineal"
+        app:showAsAction="never" />
+
+</menu>
