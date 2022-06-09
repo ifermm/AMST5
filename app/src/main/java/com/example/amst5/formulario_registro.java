@@ -1,5 +1,6 @@
 package com.example.amst5;
 
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.NotificationManager;
@@ -44,5 +45,6 @@ public class formulario_registro extends AppCompatActivity {
             manager.notify(0, builder.build());
         }
     }
+
 
 }
