@@ -38,17 +38,11 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:text="Login"
-        android:layout_gravity="center_horizontal"
-        android:paddingLeft="15dip"
-        android:paddingRight="15dip"
-        android:onClick="login"/>
-    <Button android:id="@+id/btnRegistro"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
 
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
         android:layout_marginTop="40dp"
         android:onClick="login"
         android:text="@string/login"
@@ -61,11 +55,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="148dp"
         android:layout_marginLeft="148dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="220dp"
         android:onClick="registrarse"
         android:text="@string/registrarse"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintTop_toTopOf="@+id/txtUsuario" />
 
 
 </android.support.constraint.ConstraintLayout>
