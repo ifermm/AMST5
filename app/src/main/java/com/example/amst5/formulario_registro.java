@@ -1,8 +1,6 @@
 package com.example.amst5;
 
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.app.NotificationManager;
 import android.app.NotificationChannel;
 import android.app.PendingIntent;
@@ -20,6 +18,7 @@ public class formulario_registro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulario_registro);
     }
+
 
     //insertarpaciente
     public void insertarpaciente(View v){
@@ -45,6 +44,7 @@ public class formulario_registro extends AppCompatActivity {
             manager.notify(0, builder.build());
         }
     }
+
 
 
 }

@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">AMST5</string>
+
     <string name="registrarse">Registrarse</string>
     <string name="usuario">Usuario</string>
     <string name="clave">Clave</string>
@@ -14,4 +15,5 @@
     <string name="usu">Usuario:</string>
     <string name="cla">Clave:</string>
     <string name="grabar">Grabar</string>
+
 </resources>
