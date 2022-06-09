@@ -6,49 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:padding="20dip"
-        tools:ignore="MissingConstraints">
 
-        <EditText
-            android:id="@+id/txtPasswd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Clave"
-            tools:layout_editor_absoluteX="100dp"
-            tools:layout_editor_absoluteY="107dp" />
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="366dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/txtUsuario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Usuario"
-            tools:layout_editor_absoluteX="97dp"
-            tools:layout_editor_absoluteY="37dp" />
+    <EditText
+        android:id="@+id/txtClave"
+        android:layout_width="363dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/clave"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsuario" />
 
-        <Button
-            android:id="@+id/btnLogin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="login"
-            android:text="Login"
-            tools:layout_editor_absoluteX="135dp"
-            tools:layout_editor_absoluteY="176dp" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="40dp"
+        android:onClick="login"
+        android:text="@string/login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtClave" />
 
-        <Button
-            android:id="@+id/btnRegistro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="registrarse"
-            android:text="Registrarse"
-            tools:layout_editor_absoluteX="135dp"
-            tools:layout_editor_absoluteY="239dp" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="16dp"
+        android:onClick="registrarse"
+        android:text="@string/registrarse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
 </android.support.constraint.ConstraintLayout>
