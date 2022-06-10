@@ -9,6 +9,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.net.Uri;
 
 import android.widget.EditText;
 import android.widget.Toast;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText txtNombre, txtApellido, txtUsuario, txtPasswd;
     private Button btnLogin, btnRegistro;
-
+    private String url;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +43,10 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.VideoView:
-
+                url = "https://www.youtube.com/watch?v=WBZsj6NruGA";
+                Uri uri = Uri.parse(url);
+                Intent i3 = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(i3);
                 return true;
 
             case R.id.CalendarV:
